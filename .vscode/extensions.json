@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "tamasfe.even-better-toml",
+    "dbaeumer.vscode-eslint",
+    "irongeek.vscode-env",
+    "humao.rest-client"
+  ]
+}

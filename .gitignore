@@ -1,0 +1,6 @@
+node_modules/
+.pnpm-debug.log*
+\*.tsbuildinfo
+.eslintcache
+.dev.vars
+.wrangler/

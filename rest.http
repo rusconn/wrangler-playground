@@ -1,0 +1,12 @@
+@PROD=https://wrangler-playground.rusconn3.workers.dev
+@PREVIEW_OR_LOCAL=http://localhost:8787
+@ORIGIN={{PROD}}
+
+###
+
+GET {{ORIGIN}}
+
+###
+
+GET {{ORIGIN}}
+User-Agent: hoge
