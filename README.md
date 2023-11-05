@@ -55,3 +55,12 @@ wrangler.toml の vars に設定する。
 デプロイ時に本番へ設定されない。\
 `pnpm wrangler secret put <KEY>` で本番環境へ設定する。\
 ローカルでは .dev.vars を使う
+
+## 2023-11-02 の大規模障害
+
+ちょうどこのリポジトリを試している間に Cloudflare で大規模障害が発生した。
+
+公式ブログの記事: <https://blog.cloudflare.com/post-mortem-on-cloudflare-control-plane-and-analytics-outage/>
+
+上記記事を読んだ結果、Cloudflare は信用ならないと判断した。\
+残念だが、Workers を使ったアプリケーション開発は趣味に留めることにした。
